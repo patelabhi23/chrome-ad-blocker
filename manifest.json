@@ -1,0 +1,16 @@
+{
+    "name": "Abhi's Adblocker",
+    "version": "1.0.0",
+    "description": "AdBlocker By Abhi Patel",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ],
+    "background": {
+        "scripts": [
+            "adBlocker.js"
+        ]
+    },
+    "manifest_version": 2
+}
